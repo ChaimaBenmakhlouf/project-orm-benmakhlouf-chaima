@@ -6,7 +6,6 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 
 use Slim\Factory\AppFactory;
 
-
 $app = AppFactory::create();
 
 $app->get('/tickets', function (Request $request, Response $response) {
